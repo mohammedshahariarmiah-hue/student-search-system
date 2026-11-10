@@ -5,7 +5,7 @@
 # ==============================================================================
 
 # Database of 96 students stored in variables:
-print("----------Wellcom----------")
+print("---------- Welcome----------")
 Liam="Liam- - 10- - 1"
 Ava="Ava- - 10- - 2"
 Elijah="Elijah- - 10- - 3"
