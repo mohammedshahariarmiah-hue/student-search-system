@@ -134,11 +134,11 @@ print("NAME- - CLASS- - ROLL")
 
 # Loop through the database to find the student:
 for i in s_names:
-    if a_1 in i:  # যদি ইনপুট দেওয়া নামটি ওই লাইনের ভেতরে থাকে
-        print(i)  # পুরো ডেটাটি প্রিন্ট করো
+    if a_1 in i:
+        print(i) 
         found = True
-        break     # নাম তো পেয়েই গেছি, তাই লুপটি এখানেই ভেঙে (বন্ধ করে) দাও! 
+        break     
 
 # Handle case where student is not found:
 if not found:
-    print("না আমাদের ডাটাবেজে এই স্টুডেন্টই নেই")
+    print("Sorry, this student does not exist in our database.")
